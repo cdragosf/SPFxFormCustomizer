@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "formulario-personalizado-form-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/formularioPersonalizado/FormularioPersonalizadoFormCustomizer.js",
+          "manifest": "./src/extensions/formularioPersonalizado/FormularioPersonalizadoFormCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "FormularioPersonalizadoFormCustomizerStrings": "lib/extensions/formularioPersonalizado/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}

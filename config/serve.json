@@ -1,0 +1,58 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://cdragosf.sharepoint.com/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "5d29e530-8cdc-4d82-91da-7f661fb05c8a",
+        "PageType": 4,
+        "RootFolder": "/Lists/Ideas%20de%20regalos",
+        "ContentTypeID": "0x0100C2DE55BBDBF6DC438B236557F6D2B1380030E2F5315CAD654C880F516F1FCF0DC3",
+        "ID": 1,
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    },
+    "formularioPersonalizado_NewForm": {
+      "pageUrl": "https://cdragosf.sharepoint.com/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "5d29e530-8cdc-4d82-91da-7f661fb05c8a",
+        "PageType": 8,
+        "RootFolder": "/Lists/Ideas%20de%20regalos",
+        "ContentTypeID": "0x0100C2DE55BBDBF6DC438B236557F6D2B1380030E2F5315CAD654C880F516F1FCF0DC3",
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    },
+    "formularioPersonalizado_EditForm": {
+      "pageUrl": "https://cdragosf.sharepoint.com/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "5d29e530-8cdc-4d82-91da-7f661fb05c8a",
+        "PageType": 6,
+        "RootFolder": "/Lists/Ideas%20de%20regalos",
+        "ContentTypeID": "0x0100C2DE55BBDBF6DC438B236557F6D2B1380030E2F5315CAD654C880F516F1FCF0DC3",
+        "ID": 1,
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    },
+    "formularioPersonalizado_ViewForm": {
+      "pageUrl": "https://cdragosf.sharepoint.com/sites/m365/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "5d29e530-8cdc-4d82-91da-7f661fb05c8a",
+        "PageType": 4,
+        "RootFolder": "/Lists/Ideas%20de%20regalos",
+        "ContentTypeID": "0x0100C2DE55BBDBF6DC438B236557F6D2B1380030E2F5315CAD654C880F516F1FCF0DC3",
+        "ID": 1,
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    }
+  }
+}

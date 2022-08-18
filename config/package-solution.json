@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sp-fx-form-customizer-client-side-solution",
+    "id": "e45776d8-9328-4f35-baa0-c75eaa4e604b",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "Cristian Dragos Fedotov",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Formulario personalizado"
+      },
+      "longDescription": {
+        "default": "Formulario personaliado mediante extension de SPFx Form Customizer"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "Formulario personalizado de lista de regalos",
+        "description": "Esta caracteristica activa los formularios personalizados en la lista de regalos.",
+        "id": "f2549b6c-20e2-4e76-86fe-2a926fb6b9ee",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/sp-fx-form-customizer.sppkg"
+  }
+}
